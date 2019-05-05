@@ -3,7 +3,11 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceRoot}",
+                "C:/Code Resources/SDL2_ttf-2.0.15",
+                "C:/Code Resources/SDL2-2.0.9/include/",
+                "C:/Code Resources/SDL2_image-2.0.4",
+                "C:/Code Resources/glew-2.1.0/include/"
             ],
             "defines": [
                 "_DEBUG",
