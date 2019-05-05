@@ -40,6 +40,12 @@ int main(int argc, char* argv[])
         SDL_Log("Window Successfully Generated");
     }
     
-    
+    SDL_GLContext glContext = SDL_GL_CreateContext(window);
+
+    //Render
+    SDL_GL_SwapWindow(window);
+
+    SDL_GL_DeleteContext(glContext);
+    SDL_Quit();
     return 0;
 }
