@@ -1,4 +1,4 @@
-#indef _COMMON_H
+#ifndef _COMMON_H
 #define _COMMON_H
 
 /*======STANDARD TEMPLATE=======*/
