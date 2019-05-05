@@ -18,6 +18,7 @@ int main(int argc, char* argv[])
         SDL_Log("SDL Initialised");
     }
     
+    //Create Window Instance
     SDL_Window* window= SDL_CreateWindow(
         "Game Engine Tutorial",
         SDL_WINDOWPOS_CENTERED,
@@ -27,6 +28,18 @@ int main(int argc, char* argv[])
         SDL_WINDOW_OPENGL
     );
 
+    //Check that the window was successfully created
+    if(window == NULL)
+    {
+        //Print error, if null
+        printf("Could not create window %s\n", SDL_GetError());
+        return 1;
+    }
+    else
+    {
+        SDL_Log("Window Successfully Generated");
+    }
+    
     
     return 0;
 }
