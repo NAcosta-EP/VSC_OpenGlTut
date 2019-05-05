@@ -12,6 +12,22 @@
                     "main.cpp",
                     "-o","Builds/Win_Build/engine"
                 ]
+            },
+            "osx": {
+                "args": [
+                    "-g",
+                    "--std=c++11",
+                    "main.cpp",
+                    "-o","Builds/Win_Build/engine"
+                ]
+            },
+            "linux": {
+                "args": [
+                    "-g",
+                    "--std=c++11",
+                    "main.cpp",
+                    "-o","Builds/Win_Build/engine"
+                ]
             }
         }
     ]
