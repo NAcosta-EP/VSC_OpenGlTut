@@ -18,5 +18,15 @@ int main(int argc, char* argv[])
         SDL_Log("SDL Initialised");
     }
     
+    SDL_Window* window= SDL_CreateWindow(
+        "Game Engine Tutorial",
+        SDL_WINDOWPOS_CENTERED,
+        SDL_WINDOWPOS_CENTERED,
+        640,
+        480,
+        SDL_WINDOW_OPENGL
+    );
+
+    
     return 0;
 }
