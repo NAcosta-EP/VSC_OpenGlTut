@@ -6,7 +6,9 @@
 	],
 	"settings": {
 		"files.associations": {
-			"vector": "cpp"
-		}
+			"vector": "cpp",
+		},
+		"terminal.explorerKind": "external",
+		"git.ignoreLimitWarning": true
 	}
 }

@@ -8,9 +8,18 @@
             "windows": {
                 "args": [
                     "-g",
-                    "--std=c++11",
+                    "-std=c++11",
                     "main.cpp",
-                    "-o","Builds/Win_Build/engine"
+                    "-o", "Builds/Win_Build/engine",
+                    "-lmingw32",
+                    "-lopengl32",
+                    "-lglew32",
+                    "-lglew32mx",
+                    "-lglu32",
+                    "-lSDL2main",
+                    "-lSDL2",
+                    "-lSDL2_image",
+                    "-lSDL2_ttf"
                 ]
             },
             "osx": {
@@ -29,6 +38,11 @@
                     "-o","Builds/Win_Build/engine"
                 ]
             }
+        },
+        {
+            "label": "File Check",
+            "type": "shell",
+            "command": "echo ${workspaceRoot}"
         }
     ]
 }

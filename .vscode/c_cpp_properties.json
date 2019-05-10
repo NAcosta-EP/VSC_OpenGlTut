@@ -1,15 +1,15 @@
 {
     "configurations": [
         {
-            "name": "MinGW",
+            "name": "Build",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "C:/mingw64/bin/g++.exe",
+            "compilerPath": "C:/MinGw/bin/g++.exe",
             "includePath": [
-                "${workspaceRoot}",
-                "C:/Code Resources/SDL2_ttf-2.0.15",
-                "C:/Code Resources/SDL2-2.0.9/include/",
-                "C:/Code Resources/SDL2_image-2.0.4",
-                "C:/Code Resources/glew-2.1.0/include/"
+                "${workspaceFolder}",
+                "C://Code Resources//SDL2_ttf-2.0.15",
+                "C://Code Resources//SDL2-2.0.9//**",
+                "C://Code Resources//SDL2_image-2.0.4",
+                "C://Code Resources//glew-2.1.0//**"
             ],
             "defines": [
                 "_DEBUG",

@@ -5,10 +5,10 @@
             "name": "C++ Launch",
             "type":"cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/builds/Linux_Build/engine",
+            "program": "${workspaceFolder}/builds/Linux_Build/engine",
             "preLaunchTask": "Build",
             "stopAtEntry": false,
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
@@ -22,13 +22,20 @@
                 ]
             },
             "osx": {
-                "program": "${workspaceRoot}/Builds/Mac_Build/engine",
+                "program": "${workspaceFolder}/Builds/Mac_Build/engine",
                 "MIMode": "lldb"
             },
             "windows": {
-                "program": "${workspaceRoot}/Builds/Win_Build/engine",
+                "program": "${workspaceFolder}/Builds/Win_Build/engine",
                 "miDebuggerPath": "C:\\MinGw\\bin\\gdb.exe"
             }
+        },
+        {
+            "name":"File Check",
+            "preLaunchTask": "File Check",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/filecheck.out"
         }
     ]    
 }
