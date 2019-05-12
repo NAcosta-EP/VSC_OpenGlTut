@@ -6,6 +6,7 @@
             "compilerPath": "C:/MinGw/bin/g++.exe",
             "includePath": [
                 "${workspaceFolder}",
+                "${workspaceFolder}/Dependencies/include",
                 "${workspaceFolder}/Dependencies/SDL2/include"
             ],
             "defines": [

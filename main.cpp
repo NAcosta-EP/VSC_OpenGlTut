@@ -1,4 +1,4 @@
-#include "common.h"
+#include <common.h>
 
 bool isRunning = true; //Set program state
 
