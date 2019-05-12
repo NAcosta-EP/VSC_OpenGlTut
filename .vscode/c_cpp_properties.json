@@ -5,7 +5,8 @@
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "C:/MinGw/bin/g++.exe",
             "includePath": [
-                "${workspaceFolder}"
+                "${workspaceFolder}",
+                "${workspaceFolder}/Dependencies/SDL2/include"
             ],
             "defines": [
                 "_DEBUG",
