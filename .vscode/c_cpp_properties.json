@@ -9,6 +9,12 @@
                 "${workspaceFolder}/Dependencies/include",
                 "${workspaceFolder}/Dependencies/SDL2/include"
             ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/Dependencies/include",
+                    "${workspaceFolder}/Dependencies/SDL2/include"
+                ]
+            },
             "defines": [
                 "_DEBUG",
                 "UNICODE",

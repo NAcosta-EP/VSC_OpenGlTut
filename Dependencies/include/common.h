@@ -12,9 +12,13 @@
 using namespace std;
 
 /*=======GLU/GLEW=========*/
-
+#include <GL/glew.h>
 
 /*=======SDL2=======*/
 #include <SDL.h>
+#include <SDL_image.h>
+#include <SDL_ttf.h>
+#include <SDL_opengl.h>
+
 
 #endif

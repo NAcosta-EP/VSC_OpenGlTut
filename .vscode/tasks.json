@@ -11,15 +11,9 @@
                     "-std=c++11",
                     "main.cpp",
                     "-o", "Builds/Win_Build/engine",
-                    "-lmingw32",
-                    "-lopengl32",
-                    "-lglew32",
-                    "-lglew32mx",
-                    "-lglu32",
-                    "-lSDL2main",
-                    "-lSDL2",
-                    "-lSDL2_image",
-                    "-lSDL2_ttf"
+                    "-I", "Dependencies/include/",
+                    "-I", "Dependencies/GLEW/include/",
+                    "-I", "Dependencies/SDL2/include/"
                 ]
             },
             "osx": {
